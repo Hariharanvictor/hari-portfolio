@@ -1,0 +1,61 @@
+.about-heading{
+    color:#42446E;
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+/* s */
+.about-me{
+    width:60%;
+    margin-left: 5%;
+    color: #666666;
+    font-size: 18px;
+}
+.about-experience{
+    color:#42446E;
+    font-size: 42px;
+    font-weight: bold;
+    padding-top: 1%;
+}
+.about-role{
+color: #666666;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 1px;
+text-align: left;
+
+}
+.about-company{
+    
+font-size: 12px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 1px;
+text-align: left;
+color:#A7A7A7;
+margin-right: auto;
+
+
+
+}
+.about-location{
+color:#A7A7A7; 
+font-size: 12px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 1px;
+text-align: left;
+white-space: nowrap;
+
+}
+.about-period{
+    color:#A7A7A7; 
+font-size: 12px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 1px;
+text-align: left;
+
+}
+

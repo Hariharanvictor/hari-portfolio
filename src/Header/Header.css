@@ -1,1 +1,29 @@
 
+.gradient-text {
+    background-image: linear-gradient(to right, #00C0FD,#1BABF3,#319BEC,#7C61D0,#9052C9,#AF3ABE,#BB31BA,#CB25B4,#E70FAA);
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+.header-nav{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20;
+    color: 666666;
+    margin-right: 20px;
+    
+}
+.header-nav.active {
+    color: #007bff; /* Example active color */
+    /* Additional active styles */
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays above other content */
+    /* Add other styling as needed */
+  }
+  
+  /* Add padding to the top of the first section to prevent it from being hidden behind the navbar */
+  
+  

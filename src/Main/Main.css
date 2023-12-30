@@ -1,0 +1,48 @@
+.content-blue{
+    color:#42446E;
+    font-weight: bold;
+    font-size: 45px;
+}
+.content-div{
+    padding-top:7%;
+    
+}
+.content-gradient{
+    font-weight: bold;
+    font-size: 45px;
+    background-image: linear-gradient(to right, #00C0FD,#1BABF3,#319BEC,#7C61D0,#9052C9,#AF3ABE,#BB31BA,#CB25B4,#E70FAA);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.img-div {
+    position: relative;
+    border-radius: 50%; /* Circular shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div::before {
+    content: '';
+    position: absolute;
+    width: 238px !important; /* Border size (larger than the image) */
+    height: 276px !important ;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #13B0F5,#1EA8F1,#27A1EE,#3497E9,#418DE5,#4C85E1,#577CDD,#6473D9,#7168D4,#7E5FCF,#8758CC,#9051C9,#994AC6,#994AC6,#994AC6,#A640C1,#B039BE,#B932BB,#BF2DB8,#C628B6,#CD23B3,#D41EB1,#E70FAA);
+    z-index: 0;
+}
+
+.profile-img {
+    border-radius: 50%; /* Circular shape */
+    width: 228px !important; /* Image size */
+    height: 268px !important;
+    object-fit: cover;
+    position: relative;
+    z-index: 1; /* Ensure the image is above the pseudo-element */
+}
+/* .home-div{
+    min-height: 100vh;
+} */
+
+
