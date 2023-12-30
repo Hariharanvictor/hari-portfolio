@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/hari-portfolio/static/css/main.ddff9e72.css",
+    "main.js": "/hari-portfolio/static/js/main.5517e9cc.js",
+    "static/js/787.3a724338.chunk.js": "/hari-portfolio/static/js/787.3a724338.chunk.js",
+    "static/media/Rectangle 14.png": "/hari-portfolio/static/media/Rectangle 14.facb0a11149f4363240f.png",
+    "static/media/Rectangle 13.png": "/hari-portfolio/static/media/Rectangle 13.80b7f0257002fefe7a66.png",
+    "static/media/Rectangle 4.png": "/hari-portfolio/static/media/Rectangle 4.5c340e4fedcc15bbd861.png",
+    "static/media/Rectangle 6.png": "/hari-portfolio/static/media/Rectangle 6.204e455d9052635d0821.png",
+    "static/media/Rectangle 8.png": "/hari-portfolio/static/media/Rectangle 8.85d8765fa52802031aa3.png",
+    "static/media/Rectangle 12.png": "/hari-portfolio/static/media/Rectangle 12.f06a913ecea5da97bda0.png",
+    "static/media/profile.jpg": "/hari-portfolio/static/media/profile.9a8db657ae88048d4e14.jpg",
+    "static/media/logos_react.jpg": "/hari-portfolio/static/media/logos_react.55fb3c99d7313e5e4026.jpg",
+    "static/media/4518857_python_icon.png": "/hari-portfolio/static/media/4518857_python_icon.448fb2a83595fa5c5c8a.png",
+    "static/media/4373284_angular_logo_logos_icon.png": "/hari-portfolio/static/media/4373284_angular_logo_logos_icon.e3ac953568e02f906c08.png",
+    "static/media/vscode-icons_file-type-html.jpg": "/hari-portfolio/static/media/vscode-icons_file-type-html.44110259cd36203f68fc.jpg",
+    "static/media/vscode-icons_file-type-css.jpg": "/hari-portfolio/static/media/vscode-icons_file-type-css.ec96648e709ccc1391a5.jpg",
+    "static/media/vscode-icons_file-type-vscode.jpg": "/hari-portfolio/static/media/vscode-icons_file-type-vscode.27e796f755e734719cf5.jpg",
+    "static/media/vscode-icons_file-type-js-official.jpg": "/hari-portfolio/static/media/vscode-icons_file-type-js-official.46ac6078e5608a9443bb.jpg",
+    "index.html": "/hari-portfolio/index.html",
+    "main.ddff9e72.css.map": "/hari-portfolio/static/css/main.ddff9e72.css.map",
+    "main.5517e9cc.js.map": "/hari-portfolio/static/js/main.5517e9cc.js.map",
+    "787.3a724338.chunk.js.map": "/hari-portfolio/static/js/787.3a724338.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddff9e72.css",
+    "static/js/main.5517e9cc.js"
+  ]
+}
