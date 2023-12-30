@@ -39,7 +39,7 @@ const App = () => {
         {/* Route configuration */}
         <Header></Header>
         <Routes>    
-          <Route path="/" exact element={<Main/>} />
+          <Route path="/hari-portfolio" exact element={<Main/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/techstack" element={<TechStack/>} />
           <Route path="/project" element={<Project/>} />

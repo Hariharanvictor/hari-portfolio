@@ -82,7 +82,7 @@ const Header = () => {
           <div>
           <Nav className="me-auto">
           {/* <Nav.Link href="#home" className='header-nav'>Home</Nav.Link> */}
-          <Link to="">Home</Link>
+          <Link to="hari-portfolio">Home</Link>
           <Link to="about">About</Link>
           <Link to="techstack">TechStack</Link>
           <Link to="project">Projects</Link>
