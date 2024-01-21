@@ -88,12 +88,12 @@ const Header = () => {
       <Navbar className='navbar mb-5'  >
         <Container  fluid className='d-flex  justify-content-between'>
           
-          <Navbar.Brand href="#home" ><span style={{fontSize:'23px'}} className='gradient-text'>{brand}</span><br></br><span style={{fontSize:'23px'}} className='gradient-text'>Hari</span></Navbar.Brand>
+          <Navbar.Brand has={Link} to="hari-portfolio" ><span style={{fontSize:'23px'}} className='gradient-text'>{brand}</span><br></br><span style={{fontSize:'23px'}} className='gradient-text'>Hari</span></Navbar.Brand>
           
           <div>
           <Nav className="me-auto d-flex d-flex ms-5" >
           {/* <Nav.Link href="#home" className='header-nav'>Home</Nav.Link> */}
-          <Link to="/" className='nav-link'>Home</Link>
+          <Link to="hari-portfolio" className='nav-link'>Home</Link>
           <Link to="about" className='nav-link'>About</Link>
           <Link to="techstack" className='nav-link'>TechStack</Link>
           <Link to="project" className='nav-link'>Projects</Link>
