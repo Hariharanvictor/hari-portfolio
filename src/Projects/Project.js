@@ -76,11 +76,11 @@ const Project = () => {
         
       <div>
         <h2 className="project-head ms-5 ps-5">Projects</h2>
-        <p className="project-note pt-4 ms-5 ps-5">Things I've built so far</p>
+        <p className="project-note pt-2 ms-5 ps-5">Things I've built so far</p>
       </div>
-      <div className="cards-div mt-2">
+      <div className="cards-div mt-5">
       {projectRows.map((projectGroup, rowIndex) => (
-  <div key={rowIndex} className="row mb-3 " style={{backgroundColor:'#FFFFFF'}}>
+  <div key={rowIndex} className="row mb-5" style={{backgroundColor:'#FFFFFF'}}>
     {projectGroup.map((data) => (
       <div key={data.id} className="col-md-4">
         <div className="card project-card " style={{ width: "18rem" }}>

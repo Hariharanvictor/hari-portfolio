@@ -1,0 +1,26 @@
+.contact-label{
+    text-align: center;
+/* Heading / H2 Header */
+font-size: 51px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 120.69% */
+letter-spacing: -1px;
+color: #1E0E62;
+}
+.contact-div{
+    margin-top: 175px;
+}
+.contact-mail{
+    background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+/* Heading / H2 Header */
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 120.69% */
+letter-spacing: -1px;
+}

@@ -6,6 +6,7 @@ import TechStack from './TechStack/TechStack'
 import Project from './Projects/Project';
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Contact from './Contact/Contact'
 
 
 
@@ -39,10 +40,11 @@ const App = () => {
         {/* Route configuration */}
         <Header></Header>
         <Routes>    
-          <Route path="/hari-portfolio" element={<Main/>} />
+          <Route path="/" element={<Main/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/techstack" element={<TechStack/>} />
           <Route path="/project" element={<Project/>} />
+          <Route path="/contact" element={<Contact/>} />
           {/* Add more routes as needed */}
           </Routes>
       </div>

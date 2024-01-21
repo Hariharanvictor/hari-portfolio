@@ -17,8 +17,8 @@ const TechStack = () => {
     <div  className='tech-div'>
         
         <div>
-            <h2 className='tech-heading ms-5 ps-5'>My Tech Stack</h2>
-            <p className='tech-words pt-4 ms-5 ps-5'>Technologies I've been currently working with recently</p>
+            <h2 className='tech-heading  text-center ms-5 ps-5 '>My Tech Stack</h2>
+            <p className='tech-words text-center pt-4 ms-5 ps-5'>Technologies I've been currently working with recently</p>
         </div>
         <div className='d-flex flex-column mt-5'>
             <div className='d-flex flex-row justify-content-evenly'>

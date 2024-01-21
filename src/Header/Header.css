@@ -23,6 +23,20 @@
     z-index: 1000; /* Ensure it stays above other content */
     /* Add other styling as needed */
   }
+
+  .nav-link{
+    text-decoration: none;
+    color: var(--dark-content, #666);
+text-align: right;
+
+/* Buttons / Big */
+
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 130% */
+color: #666666;
+  }
   
   /* Add padding to the top of the first section to prevent it from being hidden behind the navbar */
   

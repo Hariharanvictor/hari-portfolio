@@ -3,16 +3,59 @@
     font-weight: bold;
     font-size: 45px;
 }
-.content-div{
-    padding-top:7%;
+/* Default styles for all screen sizes */
+/* Default styles for all screen sizes */
+.content-div {
+    padding-top: 7%;
     
 }
+
+/* Responsive styles for screens up to 600 pixels wide */
+@media only screen and (max-width: 600px) {
+    .content-div {
+        padding-top: 10%;
+    }
+}
+
+/* Responsive styles for screens between 601 and 768 pixels wide */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .content-div {
+        padding-top: 8%;
+    }
+}
+
+/* Responsive styles for screens between 769 and 1024 pixels wide */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .content-div {
+        padding-top: 6%;
+    }
+}
+
+/* Responsive styles for screens larger than 1024 pixels but smaller than a Mac M1 Air */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .content-div {
+        padding-top: 4%;
+    }
+}
+
+/* Responsive styles for screens larger than 1440 pixels */
+@media only screen and (min-width: 1441px) {
+    .content-div {
+        padding-top: 7%; /* Adjust this value based on your design preference */
+    }
+}
+
+
+
+
+
 .content-gradient{
     font-weight: bold;
     font-size: 45px;
-    background-image: linear-gradient(to right, #00C0FD,#1BABF3,#319BEC,#7C61D0,#9052C9,#AF3ABE,#BB31BA,#CB25B4,#E70FAA);
+    background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+    background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .img-div {
@@ -33,6 +76,36 @@
     z-index: 0;
 }
 
+@media only screen and (max-width: 600px) {
+    .img-div::before {
+        width: 98px !important; /* Border size (larger than the image) */
+        height: 287px !important ;   
+    }
+}
+
+/* Responsive styles for screens between 601 and 768 pixels wide */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .img-div::before  {
+        width: 227px !important; /* Border size (larger than the image) */
+    height: 276px !important ;
+    }
+}
+
+/* Responsive styles for screens between 769 and 1024 pixels wide */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .img-div::before{
+        width: 238px !important; /* Border size (larger than the image) */
+    height: 276px !important ;
+    }
+}
+
+/* Responsive styles for screens larger than 1024 pixels but smaller than a Mac M1 Air */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .img-div::before {
+        width: 238px !important; /* Border size (larger than the image) */
+        height: 276px !important ;
+    }
+}
 .profile-img {
     border-radius: 50%; /* Circular shape */
     width: 228px !important; /* Image size */

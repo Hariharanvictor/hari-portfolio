@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import headericons from '../../src/assest/headericons.png'
+import linkeinIcon from '../../src/assest/entypo-social_linkedin-with-circle.png'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -26,6 +26,17 @@ const Header = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, [activeLink]);
+  const download=()=>{
+    const url="http://localhost:3000/Hariharan_cv.pdf";
+    const fileName=url.split("/").pop();
+    const aTag=document.createElement("a");
+    aTag.href=url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+    console.log('downlaod')
+  }
   return (
 //     <div>
 //         <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -80,28 +91,35 @@ const Header = () => {
           <Navbar.Brand href="#home" ><span style={{fontSize:'23px'}} className='gradient-text'>{brand}</span><br></br><span style={{fontSize:'23px'}} className='gradient-text'>Hari</span></Navbar.Brand>
           
           <div>
-          <Nav className="me-auto">
+          <Nav className="me-auto d-flex d-flex ms-5" >
           {/* <Nav.Link href="#home" className='header-nav'>Home</Nav.Link> */}
-          <Link to="hari-portfolio">Home</Link>
-          <Link to="about">About</Link>
-          <Link to="techstack">TechStack</Link>
-          <Link to="project">Projects</Link>
+          <Link to="/" className='nav-link'>Home</Link>
+          <Link to="about" className='nav-link'>About</Link>
+          <Link to="techstack" className='nav-link'>TechStack</Link>
+          <Link to="project" className='nav-link'>Projects</Link>
+          <Link to="contact" className='nav-link'>Contact</Link>
           {/* <Link to="about">About</Link> */}
           </Nav>
           </div>
           
           <div>
-  <img src={headericons} usemap="#image-map"  className='img-fluid'/>
+          <a href="https://www.linkedin.com/in/hariharan-s-04038b1ba/" target='_blank' className='me-2'>
+            <img src={linkeinIcon} usemap="#image-map"  className='img-fluid '/>
+            </a>
 
- <map name="image-map">
+            
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABa0lEQVR4nO2XT0rDQBTGfyLSQ9StHqDniOARuiueoMu4cu8BXLgSCd25cV1Kr9CNN1DQ9M9GcCTwhDKQ6GQm6TycDz4IJEy+H+/NywSSkpL+olOgAErAdOwSmAFnIcO/9RDcWK7eOQwBUBwgvBE/hgDoo21Mjd9DANiLZh3bWE4AJlUAPS00BhbATrwEJloAxjUTay33ogdYNIzDuQaAXQPAVjvARgPAUnsLTWTD2s+XWjZxJkHn0vNbuXYJnx0aIIRNAvD4kN0DK+n7avK8yJn+KuYKXEjIz4Yp9AU8A5cxAhQNwW0/xQiwdgDYxAhgHJ0AYvsOjICBc6qIAAZdhu8DoHMlANwqYLSdhWwlAFv/vgIjx1FpYtsDrnPexAbg+z5vqQf4aHHi3PdNzbpTjzVzF4CZJ0DlW+AoEETuWoFz4DUAxB1w7AmR01JD+e/1bacH4KQlRE7kmmoO3wShJjyifQh14X90Lf5V34KtBaCycFT+AAAAAElFTkSuQmCC" className='img-fluid' style={{height:'33px',width:'33px',cursor:'pointer'}} onClick={download} />
+
+ {/* <map name="image-map">
     <area target="_blank" alt="Github" title="Github" href="https://github.com/" coords="19,17,17" shape="circle"/>
     <area target="_blank" alt="tvitter" title="tvitter" href="https://about.twitter.com/en" coords="72,19,15" shape="circle"/>
      <area target="_blank" alt="Linked In" title="Linked In" href="https://www.linkedin.com/in/hariharan-s-04038b1ba/" coords="119,18,15" shape="circle"/>
- </map>
+ </map> */}
     </div>
     
     
         </Container>
+
       </Navbar>
     </>
   )
