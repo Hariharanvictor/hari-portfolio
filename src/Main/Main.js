@@ -6,8 +6,8 @@ const Main = () => {
   return (
     <div  className="container home-div">
       
-    <div className='row  d-flex'> {/* Ensure full viewport height */}
-    <div className='col-8 d-flex justify-content-center align-items-center content-div '>
+    <div className='row  d-flex content-div'> {/* Ensure full viewport height */}
+    <div className='col-8 d-flex justify-content-center align-items-center  '>
         <div> 
             <p className='content-blue'>Hi,</p>
             <p className='content-blue'>My name is</p>

@@ -13,46 +13,35 @@ const Project = () => {
     { 
         name: "Portfolio",
     about:
-      "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-  techStack:`HTML,CSS,React JS`,
+      "My most recent project stands as a comprehensive showcase of my front-end development skills and abilities. This project was developed based on a portfolio template from Figma, demonstrating my ability to transform design concepts into functional, interactive websites.",
+  techStack:`HTML,CSS,React JS, Bootstrap `,
   image:project4
     }
     ,
-    { name: "Food App",
-    about:
-      "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-  techStack:`HTML,CSS,React JS`,
-  image:project2
-},
-    {
-        name: "Property renting App",
-      about:
-        "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-    techStack:`HTML,CSS,Angular`,
-    image:project3
-    },
+   
+    
     {
         name: "Intranet Portal",
         about:
-          "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+          "This project was specifically designed to focus on easy access to the most useful applications within an organization, showcasing my skill in creating intuitive, user-friendly interfaces. Additionally, it features a real-time event update system, ensuring users stay informed about important office happening.",
       techStack:`HTML,CSS,React JS,Jira,Git`,
       image:project1
       }
       ,
     {
-        name: "Seat Booking App",
-      about:
-        "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-    techStack:`HTML,CSS,React JS,Jira,Git`,
-    image:project5
-    },
-    {
         name: "Suits",
       about:
-        "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+        "This project is a comprehensive Hospital Management Web Application designed to streamline hospital operations. Developed as a robust platform, it integrates various functionalities essential for the efficient management of hospital resources and services.",
     techStack:`HTML,CSS,React JS,Jira,Git`,
     image:project6
     },
+    {
+      name: "Property renting App",
+    about:
+      "This project is a dedicated Angular learning endeavor, designed to comprehensively cover the essential topics of Angular. It serves as a practical exploration of the framework, demonstrating my ability to grasp and apply Angular's core concepts in web development.",
+  techStack:`HTML,CSS,Angular`,
+  image:project3
+  }
   ];
 
   const groupProjects = (projects, itemsPerRow) => {
@@ -87,11 +76,12 @@ const Project = () => {
           <img src={data.image} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">{data.name}</h5>
-            <p className="card-text">
+            <p className="card-text" style={{  height: '200px',
+    overflow: 'auto'}}>
               {data.about}
             </p>
             <p>
-              Tech stack: {data.techStack}
+              <span style={{color:'#42446E'}}>Tech stack: </span> {data.techStack}
             </p>
           </div>
         </div>

@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import downloadIcon from '../assest/file_download.png'
 const Header = () => {
   const brand='{007}';
   const [activeLink, setActiveLink] = useState('home');
@@ -85,7 +86,7 @@ const Header = () => {
 // </nav>
 //     </div>
 <>
-      <Navbar className='navbar mb-5'  >
+      <Navbar className='navbar mb-2'  >
         <Container  fluid className='d-flex  justify-content-between'>
           
           <Navbar.Brand as={Link} to="hari-portfolio" ><span style={{fontSize:'23px'}} className='gradient-text'>{brand}</span><br></br><span style={{fontSize:'23px'}} className='gradient-text'>Hari</span></Navbar.Brand>
@@ -108,7 +109,7 @@ const Header = () => {
             </a>
 
             
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABa0lEQVR4nO2XT0rDQBTGfyLSQ9StHqDniOARuiueoMu4cu8BXLgSCd25cV1Kr9CNN1DQ9M9GcCTwhDKQ6GQm6TycDz4IJEy+H+/NywSSkpL+olOgAErAdOwSmAFnIcO/9RDcWK7eOQwBUBwgvBE/hgDoo21Mjd9DANiLZh3bWE4AJlUAPS00BhbATrwEJloAxjUTay33ogdYNIzDuQaAXQPAVjvARgPAUnsLTWTD2s+XWjZxJkHn0vNbuXYJnx0aIIRNAvD4kN0DK+n7avK8yJn+KuYKXEjIz4Yp9AU8A5cxAhQNwW0/xQiwdgDYxAhgHJ0AYvsOjICBc6qIAAZdhu8DoHMlANwqYLSdhWwlAFv/vgIjx1FpYtsDrnPexAbg+z5vqQf4aHHi3PdNzbpTjzVzF4CZJ0DlW+AoEETuWoFz4DUAxB1w7AmR01JD+e/1bacH4KQlRE7kmmoO3wShJjyifQh14X90Lf5V34KtBaCycFT+AAAAAElFTkSuQmCC" className='img-fluid' style={{height:'33px',width:'33px',cursor:'pointer'}} onClick={download} />
+            <button className='resume-button' onClick={download}>Resume <img src={downloadIcon} className='img-fluid '/></button>
 
  {/* <map name="image-map">
     <area target="_blank" alt="Github" title="Github" href="https://github.com/" coords="19,17,17" shape="circle"/>

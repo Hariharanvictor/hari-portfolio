@@ -20,28 +20,28 @@
 /* Responsive styles for screens between 601 and 768 pixels wide */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
     .content-div {
-        padding-top: 8%;
+        padding-top: 16%;
     }
 }
 
 /* Responsive styles for screens between 769 and 1024 pixels wide */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .content-div {
-        padding-top: 6%;
+        padding-top: 9%;
     }
 }
 
 /* Responsive styles for screens larger than 1024 pixels but smaller than a Mac M1 Air */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
     .content-div {
-        padding-top: 4%;
+        padding-top: 10%;
     }
 }
 
 /* Responsive styles for screens larger than 1440 pixels */
 @media only screen and (min-width: 1441px) {
     .content-div {
-        padding-top: 7%; /* Adjust this value based on your design preference */
+        padding-top: 15%; /* Adjust this value based on your design preference */
     }
 }
 
@@ -78,24 +78,24 @@
 
 @media only screen and (max-width: 600px) {
     .img-div::before {
-        width: 98px !important; /* Border size (larger than the image) */
-        height: 287px !important ;   
+        width: 165px !important; /* Border size (larger than the image) */
+        height: 275px !important ;   
     }
 }
 
 /* Responsive styles for screens between 601 and 768 pixels wide */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
     .img-div::before  {
-        width: 227px !important; /* Border size (larger than the image) */
-    height: 276px !important ;
+        width: 165px !important; /* Border size (larger than the image) */
+    height: 275px !important ;
     }
 }
 
 /* Responsive styles for screens between 769 and 1024 pixels wide */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .img-div::before{
-        width: 238px !important; /* Border size (larger than the image) */
-    height: 276px !important ;
+        width: 225px !important; /* Border size (larger than the image) */
+    height: 275px !important ;
     }
 }
 
