@@ -6,8 +6,8 @@ const Main = () => {
   return (
     <div  className="container home-div">
       
-    <div className='row  d-flex content-div'> {/* Ensure full viewport height */}
-    <div className='col-8 d-flex justify-content-center align-items-center  '>
+    <div className='row  d-flex '> {/* Ensure full viewport height */}
+    <div className='col-8 d-flex justify-content-center align-items-center content-div mb-5 '>
         <div> 
             <p className='content-blue'>Hi,</p>
             <p className='content-blue'>My name is</p>
@@ -16,7 +16,7 @@ const Main = () => {
         </div>
     </div>
     <div className='col-4 rounded d-flex justify-content-center align-items-center  img-div mt-5'>
-        <img src={profileImg} className="img-fluid profile-img" alt=""/>
+        <img src={profileImg} className="img-fluid profile-img " alt=""/>
     </div>
 </div>
 
