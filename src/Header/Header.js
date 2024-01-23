@@ -28,7 +28,7 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [activeLink]);
   const download=()=>{
-    const url="https://Hariharanvictor.github.io/hari-portfolio/Hariharan_cv.pdf";
+    const url="https://Hariharanvictor.github.io/hari-portfolio/Hariharan_CV.pdf";
     const fileName=url.split("/").pop();
     const aTag=document.createElement("a");
     aTag.href=url;
