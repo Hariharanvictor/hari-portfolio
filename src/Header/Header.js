@@ -89,7 +89,7 @@ const Header = () => {
       <Navbar className='navbar mb-2'  >
         <Container  fluid className='d-flex  justify-content-between'>
           
-          <Navbar.Brand as={Link} to="hari-portfolio" ><span style={{fontSize:'23px'}} className='gradient-text'>{brand}</span><br></br><span style={{fontSize:'23px'}} className='gradient-text'>Hari</span></Navbar.Brand>
+          <Navbar.Brand as={Link} to="hari-portfolio" ><span style={{fontSize:'23px'}} className='gradient-text'>{brand}</span><br></br><span style={{fontSize:'23px'}} className='gradient-text ms-1'>Hari</span></Navbar.Brand>
           
           <div>
           <Nav className="me-auto d-flex d-flex ms-5" >
