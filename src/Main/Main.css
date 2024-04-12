@@ -65,26 +65,37 @@
     justify-content: center;
     align-items: center;
 }
-
-.img-div::before {
+ .img-div::before {
     content: '';
     position: absolute;
-    width: 238px !important; /* Border size (larger than the image) */
+    width: 238px !important; 
     height: 276px !important ;
     border-radius: 50%;
     background: linear-gradient(45deg, #13B0F5,#1EA8F1,#27A1EE,#3497E9,#418DE5,#4C85E1,#577CDD,#6473D9,#7168D4,#7E5FCF,#8758CC,#9051C9,#994AC6,#994AC6,#994AC6,#A640C1,#B039BE,#B932BB,#BF2DB8,#C628B6,#CD23B3,#D41EB1,#E70FAA);
     z-index: 0;
-}
+} 
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 576px) {
     .img-div::before {
-        width: 165px !important; /* Border size (larger than the image) */
-        height: 275px !important ;   
+        width: 144px !important;
+        height: 272px !important;  
     }
 }
-
+@media only screen and (max-width: 414px) {
+    .img-div::before {
+        width: 122px !important;
+    height: 275px !important; 
+    }
+  } 
+  @media only screen and (max-width: 323px) {
+    .img-div::before {
+        width: 90px !important;
+    height: 274px !important; 
+    }
+  } 
 /* Responsive styles for screens between 601 and 768 pixels wide */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (min-width: 576px) {
     .img-div::before  {
         width: 165px !important; /* Border size (larger than the image) */
     height: 275px !important ;
@@ -92,15 +103,21 @@
 }
 
 /* Responsive styles for screens between 769 and 1024 pixels wide */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) {
     .img-div::before{
-        width: 225px !important; /* Border size (larger than the image) */
-    height: 275px !important ;
+        height: 273px!important;
+        width: 223px!important;
     }
 }
 
 /* Responsive styles for screens larger than 1024 pixels but smaller than a Mac M1 Air */
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+@media only screen and (min-width: 992px) {
+    .img-div::before {
+        width: 238px !important; /* Border size (larger than the image) */
+        height: 276px !important ;
+    }
+}
+@media only screen and (min-width: 1200px) {
     .img-div::before {
         width: 238px !important; /* Border size (larger than the image) */
         height: 276px !important ;
