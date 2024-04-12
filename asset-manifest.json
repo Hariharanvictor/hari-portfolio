@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hari-portfolio/static/css/main.e5b4b95f.css",
+    "main.css": "/hari-portfolio/static/css/main.7b508117.css",
     "main.js": "/hari-portfolio/static/js/main.751fc496.js",
     "static/js/787.3a724338.chunk.js": "/hari-portfolio/static/js/787.3a724338.chunk.js",
     "static/media/Rectangle 14.png": "/hari-portfolio/static/media/Rectangle 14.facb0a11149f4363240f.png",
@@ -18,12 +18,12 @@
     "static/media/vscode-icons_file-type-vscode.jpg": "/hari-portfolio/static/media/vscode-icons_file-type-vscode.27e796f755e734719cf5.jpg",
     "static/media/vscode-icons_file-type-js-official.jpg": "/hari-portfolio/static/media/vscode-icons_file-type-js-official.46ac6078e5608a9443bb.jpg",
     "index.html": "/hari-portfolio/index.html",
-    "main.e5b4b95f.css.map": "/hari-portfolio/static/css/main.e5b4b95f.css.map",
+    "main.7b508117.css.map": "/hari-portfolio/static/css/main.7b508117.css.map",
     "main.751fc496.js.map": "/hari-portfolio/static/js/main.751fc496.js.map",
     "787.3a724338.chunk.js.map": "/hari-portfolio/static/js/787.3a724338.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5b4b95f.css",
+    "static/css/main.7b508117.css",
     "static/js/main.751fc496.js"
   ]
 }
